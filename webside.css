@@ -1,0 +1,530 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*navbar*/
+.navbar-brand {
+    margin-top: -7px;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: -10px;
+
+}
+
+
+
+@media (max-width : 767px) {
+    #navbar {
+        margin-top: -6px;
+    }
+}
+
+@media (max-width : 767px) {
+    .navbar {
+        background: #292b2c;
+
+    }
+}
+
+/* ppppppppppppppppppppppppppppppppppppppppppppppppppppp */
+.teb{
+    padding-top: 0px;
+    margin: 0px;
+}
+/* ppppppppppppppppppppppppppppppppppppppppppppppppppppp */
+.logo {
+    padding-top: 0px;
+    margin: 0px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.logo1 {
+    color: lime;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px
+
+}
+
+.logo2 {
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+  
+}
+
+.navbar {
+    padding-top: 10px;
+}
+
+
+.link {
+    color: #fff;
+}
+
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+@media (max-width : 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.7);
+        border: 5px ridge gray;
+
+    }
+
+    .navbar-toggler {
+        background: #000;
+
+    }
+}
+
+
+.navbar-nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+
+/* line */
+
+.aos-animate {
+    border-bottom: 5px ridge #aaa;
+    background: #292b2c;
+
+}
+
+/* line */
+
+
+ul li a :hover {
+    border-bottom: 3px solid #ddd;
+    transition: 0.3s;
+    color: #aaa;
+}
+
+@media(max-width: 767px) {
+
+    ul li :hover {
+        color: #fff;
+        background: gray;
+        transition: 0.5s;
+    }
+}
+
+
+@media(max-width: 767px) {
+
+    ul li a :hover {
+        color: #fff;   
+        background: gray;
+        transition: 0.5s;
+    }
+}
+
+
+/*navbar*/
+
+/* slider */
+@media (max-width : 767px) {
+    .scaption {
+        font-size: 35px;
+       
+        
+    }
+    .stext {
+        height: 55vh;
+    }
+}
+
+.stext {
+    height: 55vh;
+}
+
+
+
+
+/* slider */
+
+/* about */
+.titleaboutus::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 200px;
+    height: 5px;
+    background: orange;
+    transform: translateX(-50%);
+
+}
+
+.aboutimg{
+    border-top: 4px solid #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: -16px;
+    left: 0px;
+    
+}
+
+
+.alist{
+
+    border-radius: 50%;
+    padding: 10px 0px;
+
+}
+.aicon:hover{
+    text-decoration: none;
+ 
+    
+}
+.aicon{
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #292b2c;
+    margin: 0px auto;
+    padding: 8px;
+    display: inline-block;
+
+}
+
+
+
+
+.facebook {
+    color: #0077B5;
+    border: 4px solid #0077B5;
+ 
+}
+.facebook:hover{
+      background: #0077B5;
+      color: #fff;
+      border: 4px solid #fff;
+      transition: .5s;
+}
+
+.instagram {
+    color: #d72888;
+    border: 5px solid #d72888;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.instagram:hover {
+    background: #d72888;
+    color: #fff;
+    border: 4px solid #fff;
+    transition: .5s;
+}
+.whatsapp {
+    color: green;
+    border: 4px solid green;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.whatsapp:hover {
+    background: green;
+    color: #fff;
+    border: 4px solid #fff;
+    transition: .5s;
+}
+.youtube {
+    color: #eb1c14;
+    border: 4px solid #eb1c14;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.youtube:hover {
+    background: #eb1c14;
+    color: #fff;
+    border: 4px solid #fff;
+    transition: .5s;
+}
+
+
+
+
+.abimg{
+    width: 100%;
+    height: 500px;
+    border: 5px solid darkorange;
+}
+/* about */
+
+/*servise*/
+
+
+.single1 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 80px;
+    background: #fff;
+    padding: 70px 20px 40px;
+    border: 8px solid green;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.icon {
+    position: absolute;
+    left: 50%;
+    top: -45px;
+    width: 90px;
+    height: 90px;
+    margin-left: -45px;
+    line-height: 90px;
+    background: green;
+    font-size: 50px;
+    color: #fff;
+    transition: .5s;
+    border-radius: 5px;
+
+}
+
+.single1:hover .icon {
+    transform: scale(0.8, 0.8);
+
+}
+
+.icon:after {
+    content: '';
+    width: 111px;
+    height: 111px;
+    border: 6px solid green;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    transform: scale(0.8, 0.8);
+    transition: .5s;
+    opacity: 0;
+    border-radius: 5px;
+
+}
+
+
+.single1:hover .icon:after {
+    opacity: 1;
+    transform: scale(1, 1);
+
+}
+
+.titleservices::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 250px;
+    height: 5px;
+    background: orange;
+    transform: translateX(-50%);
+
+}
+
+/*servise*/
+
+/*team*/
+
+.single-team {
+    background: #000;
+    margin-bottom: 50px;
+    
+
+}
+
+.single-team:hover .social {
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+
+}
+
+.img-area {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.img-area img {
+    width: 100%;
+    height: 300px;
+    opacity: 0.9;
+
+}
+
+.img-area:hover img {
+    transform: scale(1.2);
+
+}
+
+.img-area img {
+    transition: all 0.4s ease 0s;
+}
+
+
+
+.img-area .social {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: .5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+.img-area .social ul {
+    text-align: center;
+    position: relative;
+    top: 125px;
+
+}
+
+.img-area .social ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.img-area .social ul li a {
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    
+
+
+}
+
+.img-area .social ul a:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #aaa;
+    transition: .5s;
+    text-decoration: none;
+      
+       
+}
+
+
+.img-text {
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+    border-top: 7px solid #eee;
+}
+
+.teamborder{
+    border: 8px solid #eee;
+
+}
+
+.titlemyteams:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 210px;
+    height: 5px;
+    background: red;
+    transform: translateX(-50%);
+
+}
+
+.teamname {
+    letter-spacing: 3px;
+}
+
+
+
+.bradius{
+    border-radius: 5px;
+}
+/*team*/
+
+/*scroll*/
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    background: url(image/top.png);
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+/*scroll*/
+
+/*skills*/
+
+.titlemyskills::before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    width: 190px;
+    height: 5px;
+    background: red;
+    transform: translateX(-50%);
+
+}
+/*skills*/
+
+
+/* contact */
+.titlecontact::before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    width: 230px;
+    height: 5px;
+    background: orange;
+    transform: translateX(-50%);
+
+}
+
+/* contact */
+/* footer */
+@media (max-width : 576px) {
+    .footer{
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 576px) {
+    .footer{
+        font-size: 20px;
+    }
+}
+
+@media (min-width : 992px) {
+    .footer {
+        font-size: 25px;
+    }
+}
+/* footer */
